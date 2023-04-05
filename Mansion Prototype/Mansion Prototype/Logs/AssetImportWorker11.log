@@ -1,0 +1,343 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.19f1 (c9714fde33b6) revision 13201743'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 32444 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+G:/Uni/The-ol-greybox-Test/Mansion Prototype/Mansion Prototype
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+62190
+Successfully changed project path to: G:/Uni/The-ol-greybox-Test/Mansion Prototype/Mansion Prototype
+G:/Uni/The-ol-greybox-Test/Mansion Prototype/Mansion Prototype
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [52876] Host "[IP] 192.168.0.63 [Port] 0 [Flags] 2 [Guid] 1390231609 [EditorId] 1390231609 [Version] 1048832 [Id] WindowsEditor(7,Firebird) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [52876] Host "[IP] 192.168.0.63 [Port] 0 [Flags] 2 [Guid] 1390231609 [EditorId] 1390231609 [Version] 1048832 [Id] WindowsEditor(7,Firebird) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 110.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.19f1 (c9714fde33b6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/Uni/The-ol-greybox-Test/Mansion Prototype/Mansion Prototype/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 Ti (ID=0x1e07)
+    Vendor:   NVIDIA
+    VRAM:     11041 MB
+    Driver:   31.0.15.3141
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003432 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 107.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.579 seconds
+Domain Reload Profiling:
+	ReloadAssembly (580ms)
+		BeginReloadAssembly (57ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (431ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (94ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005683 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image G:\Uni\The-ol-greybox-Test\Mansion Prototype\Mansion Prototype\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image G:\Uni\The-ol-greybox-Test\Mansion Prototype\Mansion Prototype\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 114.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.243 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1243ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1046ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (300ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (575ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (114ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (285ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Custom/AdditiveTintable': fallback shader 'Particles/Additive (Soft)' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5365 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (1.5 MB). Loaded Objects now: 5817.
+Memory consumption went from 217.0 MB to 215.5 MB.
+Total: 4.216100 ms (FindLiveObjects: 0.469600 ms CreateObjectMapping: 0.540100 ms MarkObjects: 2.687900 ms  DeleteObjects: 0.517600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 932725.645291 seconds.
+  path: Assets/Materials/Floor001.mat
+  artifactKey: Guid(032e163b896cbe34cb59674d4f132dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Floor001.mat using Guid(032e163b896cbe34cb59674d4f132dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7777aca9ab8607d223c0d74fa732ca1e') in 0.238280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 515.932289 seconds.
+  path: Assets/Materials/New Physic Material.physicMaterial
+  artifactKey: Guid(2d7023cd42bce5d4dbba3356704d0055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Physic Material.physicMaterial using Guid(2d7023cd42bce5d4dbba3356704d0055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d6b18147e812cd8caea8981c43a909') in 0.010316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.208075 seconds.
+  path: Assets/Materials/Fire.mat
+  artifactKey: Guid(5a3209fcb5d44c94183150b2a237188e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Fire.mat using Guid(5a3209fcb5d44c94183150b2a237188e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b31594ce8bef7ae9f6fbb953f97d44ad') in 0.014691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 137.633917 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackground.png
+  artifactKey: Guid(ce5f11cd993284c4f9c54f854bdc8c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackground.png using Guid(ce5f11cd993284c4f9c54f854bdc8c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30e7e8e30ccc4dccafb8cff824d8eda') in 0.024346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@3x.png
+  artifactKey: Guid(8be1fbf4b24de44c99840805bdae9e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@3x.png using Guid(8be1fbf4b24de44c99840805bdae9e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc1242d3c4bbf85f6457064575b635af') in 0.014283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@4x.png
+  artifactKey: Guid(862c5ca31844d4a6d9aa804af982ce65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Add Binding@4x.png using Guid(862c5ca31844d4a6d9aa804af982ce65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75eab826876a35dfbab84e326879c684') in 0.012804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackgroundWithoutBorder.png
+  artifactKey: Guid(943deaaee9c9347e0a455aa208526c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackgroundWithoutBorder.png using Guid(943deaaee9c9347e0a455aa208526c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbfa805e3d4839c34ce62c17f670fc70') in 0.010156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.385495 seconds.
+  path: Assets/Character/Textures/Armature_Arms_AlbedoTransparency.tif
+  artifactKey: Guid(c6dc62700fa06274b9608a9fce8ed21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Textures/Armature_Arms_AlbedoTransparency.tif using Guid(c6dc62700fa06274b9608a9fce8ed21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360aae156948527c5767bb2e45b909a4') in 0.022218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.215846 seconds.
+  path: Assets/Character/Textures/Armature_Arms_Normal.tif
+  artifactKey: Guid(104a45460231b8d4783e0bb2223be28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Textures/Armature_Arms_Normal.tif using Guid(104a45460231b8d4783e0bb2223be28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b38041781c9f3a53cf1556994ca7889') in 0.016678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.076673 seconds.
+  path: Assets/Character/Textures/Armature_Body_AlbedoTransparency.tif
+  artifactKey: Guid(28d78c5517421f047b88352f3b18e8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Textures/Armature_Body_AlbedoTransparency.tif using Guid(28d78c5517421f047b88352f3b18e8e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8203ae89b1d8e4cda8b46f144d6db159') in 0.014920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.530478 seconds.
+  path: Assets/Character/Textures/Armature_Body_Normal.tif
+  artifactKey: Guid(2a3daea46c599324e873f935ab08000a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Textures/Armature_Body_Normal.tif using Guid(2a3daea46c599324e873f935ab08000a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a10c99ce36d98c88739a9cafdda685') in 0.027102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035176 seconds.
+  path: Assets/Character/Textures/Armature_Legs_AlbedoTransparency.tif
+  artifactKey: Guid(c444e3d02d2fcff4d9fe5211d67652a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Textures/Armature_Legs_AlbedoTransparency.tif using Guid(c444e3d02d2fcff4d9fe5211d67652a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a1481e6cc73f9c38be0c4faec090ec2') in 0.015862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.461410 seconds.
+  path: Assets/Character/Textures/Armature_Legs_Normal.tif
+  artifactKey: Guid(b2c5d9c39850da946ae135dcb57faaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character/Textures/Armature_Legs_Normal.tif using Guid(b2c5d9c39850da946ae135dcb57faaea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5550d087b8a087b74d801615d375d92e') in 0.017932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031113 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis.png
+  artifactKey: Guid(7e853779c8fed4ebf917a0de21c79602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis.png using Guid(7e853779c8fed4ebf917a0de21c79602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469f6e20299d478ebbef0c35369f609b') in 0.014488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.402397 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis@3x.png
+  artifactKey: Guid(2e27a82b5cc4e4ef98cbef2d0b324aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Axis@3x.png using Guid(2e27a82b5cc4e4ef98cbef2d0b324aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e9c69ab2ccae810b0a7e853245f5f6') in 0.025343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.741775 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat
+  artifactKey: Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/ParticlesUnlit.mat using Guid(e823cd5b5d27c0f4b8256e7c12ee3e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17617b2f08435d8a310bded77675d82c') in 0.101348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 306.010665 seconds.
+  path: Assets/Vefects/Scene
+  artifactKey: Guid(7d2ae1132c30b1240a6c908bfdb232da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/Scene using Guid(7d2ae1132c30b1240a6c908bfdb232da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8711d8b02e6e794e8a72288ef9393b2') in 0.208671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.891783 seconds.
+  path: Assets/Vefects/VFX/Free Fire/Particles/VFX_Fire_01_Big.prefab
+  artifactKey: Guid(e91fa0fac941e714e8c4d5709097019f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/VFX/Free Fire/Particles/VFX_Fire_01_Big.prefab using Guid(e91fa0fac941e714e8c4d5709097019f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9595c9082fb246b4ceeadff1fc4b4b9') in 0.046985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Vefects/VFX/Free Fire/Particles/VFX_Fire_01_Medium_Simple.prefab
+  artifactKey: Guid(86cf272c329017647a3b0c6c6edcff58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/VFX/Free Fire/Particles/VFX_Fire_01_Medium_Simple.prefab using Guid(86cf272c329017647a3b0c6c6edcff58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a6544482083ec432d35c77ba330f44') in 0.020775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Vefects/VFX/Free Fire/Particles/VFX_Fire_01_Small.prefab
+  artifactKey: Guid(4e35892e4c5444340a0e2189311808e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/VFX/Free Fire/Particles/VFX_Fire_01_Small.prefab using Guid(4e35892e4c5444340a0e2189311808e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2782769140e295ba86442e7d4e77800') in 0.027084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Vefects/VFX/Free Fire/Particles/VFX_Fire_Floor_02_Simple.prefab
+  artifactKey: Guid(2367bf03da674184783a4254456143c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/VFX/Free Fire/Particles/VFX_Fire_Floor_02_Simple.prefab using Guid(2367bf03da674184783a4254456143c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45056cd4798d685d54b237d236268df') in 0.020459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Vefects/VFX/Free Fire/Particles/VFX_Fire_Floor_02_Smoke.prefab
+  artifactKey: Guid(982b091f07779d846ad915e29a06ddc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/VFX/Free Fire/Particles/VFX_Fire_Floor_02_Smoke.prefab using Guid(982b091f07779d846ad915e29a06ddc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc01827e89e221f80f3fdb34887d1a96') in 0.023659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Vefects/VFX/Free Fire/Particles/VFX_Fire_01_Small_Simple.prefab
+  artifactKey: Guid(dd986d04bcc6dc748a53d8c3d1d42a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/VFX/Free Fire/Particles/VFX_Fire_01_Small_Simple.prefab using Guid(dd986d04bcc6dc748a53d8c3d1d42a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65a7afca5a58407a3c6b60245f251df') in 0.023950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Vefects/VFX/Free Fire/Particles/VFX_Fire_01_Medium.prefab
+  artifactKey: Guid(98c5ce036f68d8941922e7541fb70887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/VFX/Free Fire/Particles/VFX_Fire_01_Medium.prefab using Guid(98c5ce036f68d8941922e7541fb70887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22db8f0bd90f9547fb570f6ffc3d19bd') in 0.023957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Vefects/VFX/Free Fire/Particles/VFX_Fire_01_Small_Smoke.prefab
+  artifactKey: Guid(e92a0207ed6f749459a3646c2aaf3cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/VFX/Free Fire/Particles/VFX_Fire_01_Small_Smoke.prefab using Guid(e92a0207ed6f749459a3646c2aaf3cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d20ac6791966d4c6ed08e84bbb853c') in 0.026105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Vefects/VFX/Free Fire/Particles/VFX_Fire_Floor_01_Simple.prefab
+  artifactKey: Guid(858e79faf6de940498a11b25374053d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/VFX/Free Fire/Particles/VFX_Fire_Floor_01_Simple.prefab using Guid(858e79faf6de940498a11b25374053d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d36a8096003e6ddc69a59018339e335') in 0.018640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Vefects/VFX/Free Fire/Particles/VFX_Fire_01_Medium_Smoke.prefab
+  artifactKey: Guid(e01f2e62cf41a3449be2dade3b2c2d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/VFX/Free Fire/Particles/VFX_Fire_01_Medium_Smoke.prefab using Guid(e01f2e62cf41a3449be2dade3b2c2d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1016f1d33eec63de33213dae4ccd7428') in 0.026950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Vefects/VFX/Free Fire/Particles/VFX_Fire_Floor_01.prefab
+  artifactKey: Guid(2ee7574cb1211da4ba89d1838327b5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/VFX/Free Fire/Particles/VFX_Fire_Floor_01.prefab using Guid(2ee7574cb1211da4ba89d1838327b5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf30400a1f64f4fd96c8d4736ce33ad') in 0.022807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.312440 seconds.
+  path: Assets/Vefects/VFX/Free Fire/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset
+  artifactKey: Guid(65a3d375000f4b84e864f65bd9b9e2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vefects/VFX/Free Fire/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset using Guid(65a3d375000f4b84e864f65bd9b9e2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0f877423026a951081b51465acb059') in 0.011990 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
